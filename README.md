@@ -1,3 +1,46 @@
+Instructions:
+
+1. clone the for-while-until-ruby-loop-exercise git repo
+
+```
+$> clone https://github.com/ikigaidojo/for-while-until-ruby-loop-exercise.git
+```
+
+2. make sure you are on the **develop** branch, create a new branch and give it a name using your first name
+
+```
+# make sure you're on the "develop" branch
+$> git branch                    												  
+
+# make a new branch and name it after your first name
+$> git checkout -b ulysses       													
+
+# do periodic git commits
+$> git commit -am "..."					 													
+
+# prepare your branch to be included in the remote git repo
+$> git push --set-upstream origin <your branch name>			
+
+# push your the commits you did on your branch, then
+$> git push                     												 
+`````````11
+
+**Go to github and create a PR (Pull Request)**. Make the following settings are properly set
+
+base:develop  <- compare:<your branch>
+
+Set the Reviewer to ikigadojo. Optionally, you can add a comment. Then, press **Create pull request**.
+
+
+Additional Note
+===============
+Please name the ruby program in this format
+
+```
+<your first name>_exercise_1.rb
+`````
+
+
 
 exercise 1
 ==========
@@ -16,7 +59,6 @@ using the for loop, write a ruby program that will print all even numbers betwee
 exercise 4
 ==========
 using the for loop, write a ruby program that will print all odd numbers starting at 200 down to 1
-
 
 
 exercise 5
