@@ -31,7 +31,6 @@ end
 menu()
 val = gets.chomp.downcase
 
-=begin
 # version 1
 if    val == "c"; puts 'You selected the "Create" operation...'
 elsif val == "r"; puts 'You selected the "Read" operation...'
@@ -40,8 +39,6 @@ elsif val == "d"; puts 'You selected the "Delete" operation...'
 elsif val == "e"; puts 'You selected "Exit".'
 else puts "Wrong selection"
 end
-=end 
-  
 
 # version 2
 case val

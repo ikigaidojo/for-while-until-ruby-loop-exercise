@@ -19,8 +19,8 @@
 
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 
+# version 1 
 def version1(alphabet)
-  puts "VERSION 1"
   alphabet.each_char do |char|
     if    char == "a"; puts "#{char} : v"
     elsif char == "e"; puts "#{char} : v"
@@ -32,8 +32,8 @@ def version1(alphabet)
   end
 end
 
+# version 2
 def version2(alphabet)
-  puts "VERSION 2"
   alphabet.each_char do |char|
     case char
       when "a"; puts "#{char} : v"
