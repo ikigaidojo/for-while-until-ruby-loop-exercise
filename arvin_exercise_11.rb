@@ -6,7 +6,7 @@ x = 100
 
 until x == 200
 	x += 1
-	if x.even? then
+	if x % 2 == 0 then # alternative if x.even?
 		puts "#{x}"		
 	end
 end
