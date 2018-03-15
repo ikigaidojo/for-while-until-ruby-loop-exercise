@@ -7,8 +7,8 @@ puts "Exercise 7"
 x = 100
 
 while x <= 200 do
-	if x.even? then
-		puts "#{x}"
-	end
-	x += 1
+  if x.even? then
+    puts "#{x}"
+  end
+  x += 1
 end

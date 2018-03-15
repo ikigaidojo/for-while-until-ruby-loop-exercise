@@ -7,6 +7,6 @@ puts "Exercise 6"
 x = 100
 
 while x >= 1 do
-	puts "#{x}"
-	x -= 1
+  puts "#{x}"
+  x -= 1
 end

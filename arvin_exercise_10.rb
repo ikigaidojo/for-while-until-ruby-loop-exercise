@@ -7,6 +7,6 @@ puts "Exercise 10"
 x = 100
 
 until x == 0
-	puts "#{x}"
-	x -= 1
+  puts "#{x}"
+  x -= 1
 end

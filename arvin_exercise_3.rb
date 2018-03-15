@@ -6,11 +6,11 @@ puts "Exercise 3"
 
 def countup(x)
   for i in 100..200 do
-		if x.even? then
-			puts "#{x}"
-			x += 1
-		end
-	end
+    if x.even? then
+      puts "#{x}"
+      x += 1
+    end
+  end
 end
 
 countup(100)

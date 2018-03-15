@@ -7,7 +7,7 @@ puts "Exercise 9"
 x = 0
 
 until x == 100
-	x += 1
-	puts "#{x}"
+  x += 1
+  puts "#{x}"
 end
 

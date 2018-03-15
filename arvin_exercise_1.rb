@@ -7,7 +7,7 @@ puts "Exercise 1"
 def exercise_1()
   for i in 1.upto 100 do
     puts "#{i}"
-	end
+  end
 end
 
 exercise_1()
