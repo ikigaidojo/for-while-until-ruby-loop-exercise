@@ -4,11 +4,12 @@
 
 x = 0
 
+puts "Exercise 5"
 def exercise_5(x)
-	while x < 100 do 
-		x += 1
-		puts "#{x}"
-	end
+  while x < 100 do 
+    x += 1
+    puts "#{x}"
+  end
 end
 
 exercise_5(x)
