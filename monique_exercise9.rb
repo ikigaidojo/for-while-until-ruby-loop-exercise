@@ -1,6 +1,6 @@
-index = 1
+i = 1 
 
-until index <= 0
-    print "\n"
-    index += 100
+until i >= 101 do
+  puts i
+  i += 1
 end
