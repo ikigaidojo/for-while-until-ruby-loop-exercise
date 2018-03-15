@@ -1,5 +1,5 @@
-x = 0 
-while x <= 10
+x = 100 
+while x <= 200
   if x.even?
     puts x
   end
