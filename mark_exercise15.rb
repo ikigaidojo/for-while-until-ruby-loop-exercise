@@ -37,14 +37,10 @@ end
 
 #Version 2 - Case statement
 puts "Version 2 - Using case statement"
-my_array = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+my_array = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z" ]
 my_array.each do |i|
   case i
-    when "a"; puts i + ":v"
-    when "e"; puts i + ":v"
-    when "i"; puts i + ":v"
-    when "o"; puts i + ":v"
-    when "u"; puts i + ":v"
+  when "a", "e", "i", "o", "u"; puts i + ":v"
     else
       puts i + ":c"
   end
