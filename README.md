@@ -103,3 +103,61 @@ exercise 14
 using the times statement, write a ruby program that will print all numbers from 100 to 1
 
 
+exercise 15
+===========
+
+given a string containing the alphabet
+
+`````
+alphabet = "abcdefghijklmnopqrstuvwxyz"
+`````
+
+write a set of ruby programs that will iterate or go over each character of the array and determine if the 
+character is a vowel, e.g.,  a, e, i, o, u; or its a consonant, e.g., b, c, d, f, g, h,
+j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+
+the output should look something like this
+
+`````
+a:v
+b:c
+c:c
+d:c
+e:v
+...
+`````
+
+Write two version of the program, the first version will be to use the if-elsif-else-statement. The
+second version is to use case-when-else statement.	
+
+exercise 16
+===========
+
+
+Given that you have a menu
+
+`````
+	[C]reate
+	[R]ead
+	[U]pdate
+	[D]elete
+	[E]xit
+	
+	You selected?: 
+`````
+
+Create a ruby program that display the above screen and get from the user his or her choice from 
+the menu (by entering 'C', 'R', 'U', 'D' or 'E') and displaying to the screen, depending on the
+input, either one of the following 
+
+`````	
+	You selected the "Create" operation...
+	You selected the "Read" operation...
+	You selected the "Update" operation...
+	You selected the "Delete" operation...
+	You selected the "Exit".
+`````
+
+Write two version of the program, the first version will be to use the if-elsif-else-statement. The
+second version is to use case-when-else statement.	
