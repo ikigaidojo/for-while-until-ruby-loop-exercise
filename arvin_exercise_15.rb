@@ -17,6 +17,8 @@
 # Write two version of the program, the first version will be to use the if-elsif-else-statement.
 # The second version is to use case-when-else statement.
 
+puts "Exercise 15"
+
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 
 # version 1 

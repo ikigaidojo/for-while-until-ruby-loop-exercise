@@ -19,6 +19,8 @@
 # Write two version of the program, the first version will be to use the if-elsif-else-statement.
 # The second version is to use case-when-else statement.
 
+puts "Exercise 16"
+
 def menu()
   puts "Choose your selection"
   puts "[C]reate"

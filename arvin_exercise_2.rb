@@ -4,21 +4,23 @@
 
 =begin version 1
 def countdown(x)
-	for i in x.downto 1 do
-		puts "#{i}"
-		x -= 1
-	end
+  for i in x.downto 1 do
+    puts "#{i}"
+    x -= 1
+  end
 end
 
 countdown(100)
 =end
 
+puts "Exercise 2"
+
 i = 100
 
 def exercise_2(i)
-	for i in i.downto 1 do
-		puts "#{i}"
-	end
+  for i in i.downto 1 do
+    puts "#{i}"
+  end
 end
 
 exercise_2(i)
