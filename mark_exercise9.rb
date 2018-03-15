@@ -4,10 +4,11 @@
 
 def main()
   x = 0
-  until x <= 100 do
+  until x >= 100 do
     x = x + 1
     puts x
   end
+  puts "Done!"
 end
 
 this_is_loop = main()
