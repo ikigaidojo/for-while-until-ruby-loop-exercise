@@ -6,7 +6,7 @@ def main()
   i = 99
   until i >= 200 do
     i += 1
-     if i.even?
+    if i.even?
         puts i
     end
   end
