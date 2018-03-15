@@ -5,7 +5,7 @@
 def countup(x)
 	for i in 100..200 do
 		if x.even? then
-			puts x
+			puts "#{x}"
 			x += 1
 		end
 	end

@@ -6,6 +6,6 @@ x = 0
 
 until x == 100
 	x += 1
-	puts x
+	puts "#{x}"
 end
 

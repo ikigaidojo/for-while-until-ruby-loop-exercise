@@ -4,7 +4,7 @@
 
 def exercise_1()
 	for i in 1.upto 100 do
-		puts i
+		puts "#{i}"
 	end
 end
 

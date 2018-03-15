@@ -6,7 +6,7 @@ x = 200
 
 while x >= 100 do
 	if x.odd? then
-		puts x
+		puts "#{x}"
 	end
 	x -= 1
 end

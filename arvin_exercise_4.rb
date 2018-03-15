@@ -4,7 +4,7 @@
 
 for i in 200.downto 1 do
 	if i.odd? then
-		puts i
+		puts "#{i}"
 		i -= 1
 	end
 end

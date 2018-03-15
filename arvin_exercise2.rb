@@ -5,7 +5,7 @@
 =begin version 1
 def countdown(x)
 	for i in x.downto 1 do
-		puts x
+		puts "#{i}"
 		x -= 1
 	end
 end
@@ -17,7 +17,7 @@ i = 100
 
 def exercise_2(i)
 	for i in i.downto 1 do
-		puts i
+		puts "#{i}"
 	end
 end
 
