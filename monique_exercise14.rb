@@ -1,5 +1,1 @@
-input = gets.chomp.to_i
-
-input.times do |i|
-  puts "#{i}"
-end
+100.times do |x| x -= 100 and (puts x) end
