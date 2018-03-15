@@ -34,22 +34,34 @@ menu()
 val = gets.chomp.downcase
 
 # version 1
-if    val == "c"; puts 'You selected the "Create" operation...'
-elsif val == "r"; puts 'You selected the "Read" operation...'
-elsif val == "u"; puts 'You selected the "Update" operation...'
-elsif val == "d"; puts 'You selected the "Delete" operation...'
-elsif val == "e"; puts 'You selected "Exit".'
-else puts "Wrong selection"
+if val == "c"
+  puts 'You selected the "Create" operation...'
+elsif val == "r"
+  puts 'You selected the "Read" operation...'
+elsif val == "u"
+  puts 'You selected the "Update" operation...'
+elsif val == "d"
+  puts 'You selected the "Delete" operation...'
+elsif val == "e"
+  puts 'You selected "Exit".'
+else
+  puts "Wrong selection"
 end
 
 # version 2
 case val
-  when "c"; puts 'You selected the "Create" operation...'
-  when "r"; puts 'You selected the "Read" operation...'
-  when "u"; puts 'You selected the "Update" operation...'
-  when "d"; puts 'You selected the "Delete" operation...'
-  when "e"; puts 'You selected "Exit".'
-  else puts "Wrong selection"
+  when "c"
+    puts 'You selected the "Create" operation...'
+  when "r"
+    puts 'You selected the "Read" operation...'
+  when "u"
+    puts 'You selected the "Update" operation...'
+  when "d"
+    puts 'You selected the "Delete" operation...'
+  when "e"
+    puts 'You selected "Exit".'
+  else
+    puts "Wrong selection"
 end
 
     
