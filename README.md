@@ -23,7 +23,7 @@ $> git push --set-upstream origin <your branch name>
 
 # push your the commits you did on your branch, then
 $> git push                     												 
-`````````11
+`````````
 
 **Go to github and create a PR (Pull Request)**. Make the following settings are properly set
 
