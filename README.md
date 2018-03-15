@@ -94,4 +94,12 @@ exercise 12
 ===========
 using a until loop, write a ruby program that will print all the odd numbers from 200 to 100.
 
+exercise 13
+==========
+using the times statement, write a ruby program that will print all numbers from 1 to 100
+
+exercise 14
+==========
+using the times statement, write a ruby program that will print all numbers from 100 to 1
+
 
