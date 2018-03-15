@@ -1,4 +1,4 @@
-print "Are you ready to count from 1 to 100?"
+puts "Are you ready to count from 1 to 100?"
 
 a = 1
 
