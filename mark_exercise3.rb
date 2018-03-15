@@ -5,7 +5,7 @@
 def main()
   for i in 100..200 do
     if (i % 2) == 0
-        puts i
+      puts i
     end
   end
   puts "Done!"
