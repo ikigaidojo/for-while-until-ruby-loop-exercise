@@ -7,6 +7,6 @@ x = 100
 until x == 200
 	x += 1
 	if x.even? then
-		puts x		
+		puts "#{x}"		
 	end
 end
