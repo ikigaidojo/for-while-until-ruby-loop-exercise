@@ -6,8 +6,8 @@ def countup(x)
 	for i in 100..200 do
 		if x.even? then
 			puts x
+			x += 1
 		end
-		x += 1
 	end
 end
 
