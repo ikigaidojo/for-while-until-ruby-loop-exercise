@@ -1,9 +1,14 @@
+#exercise 1
+#==========
+#using the for loop, write a ruby program that will print all numbers from 1 to 100
 
-def countup(x)
-	for i in 1..100 do
-		x += 1
-		puts x
+def exercise_1(i)
+	for i in 1.upto i do
+		puts i
 	end
 end
 
-countup(0)
+puts "Count to what number?"
+var = gets.chomp.to_i
+
+exercise_1(var)
